@@ -18,4 +18,4 @@ console.log("This customer is eligible for driver license: " + eligibilityForDri
 //Logical "NOT"
 console.log(!true)
 console.log(6 == 10)
-console.log(6 !== 10)
+console.log(6 !== 10) 
