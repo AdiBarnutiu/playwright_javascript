@@ -22,4 +22,9 @@ for (var car of cars){
     }
 }
 
-// ES6 synthax
+console.log("**********************")
+
+// ES6 synthax for each loop
+cars.forEach (car => {
+    console.log(car);
+})
