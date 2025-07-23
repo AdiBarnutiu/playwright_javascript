@@ -22,4 +22,16 @@ in test, in loc de test(), scrie test.skip()
 Run la doar un test:
 in test, in loc de test(), scrie test.only()
 
+Run - posibil si de la iconitele de play de langa teste
+
+Run in UI mode:
+npx playwright test --ui
+- usefull: 
+	- Action, Before, After - in partea de sus
+	- simbolul ochiului (watch) - priveste modificarile - poti merge si modifica codul, rerun apoi
+
+================================================
+
+
+
 
