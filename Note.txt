@@ -1,0 +1,25 @@
+Run test:
+npx playwright test
+
+Show report:
+npx playwright show-report
+
+Only one browser:
+npx playwright test --project=chromium
+
+Only one browser + show in browser:
+npx playwright test --project=chromium --headed
+
+Play one file with all the tests inside(example.spec.ts):
+npx playwright test example.spec.ts --project=chromium --headed
+
+Play just one test ('has title') from the file:
+npx playwright test -g "has tile"
+
+Skip one test:
+in test, in loc de test(), scrie test.skip()
+
+Run la doar un test:
+in test, in loc de test(), scrie test.only()
+
+
